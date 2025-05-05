@@ -1,11 +1,11 @@
 name: neo_beep
-description: "A new Flutter plugin project."
+description: "A fork Flutter Beep plugin for iOS and Android."
 version: 1.0.0
 homepage: https://guestastic.com/
 
 environment:
-  sdk: ^3.7.0
-  flutter: '>=3.3.0'
+  sdk: '>=3.5.3  <4.0.0'
+  flutter: '>=3.27.4'
 
 dependencies:
   flutter:

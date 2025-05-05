@@ -1,11 +1,11 @@
 name: neo_beep_example
-description: "Demonstrates how to use the neo_beep plugin."
+description: "A Demostration of how to use the neo_beep plugin."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
-  sdk: ^3.7.0
+  sdk: '>=3.5.3  <4.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions

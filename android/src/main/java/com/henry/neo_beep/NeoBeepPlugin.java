@@ -28,9 +28,9 @@ public class NeoBeepPlugin implements FlutterPlugin, MethodCallHandler {
 
   @Override
   public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
-    switch (call.method)) {
+    switch (call.method) {
       case "playSysSound":
-        int soundID = call.argument('soundId');
+        Integer soundID = call.argument("soundId");
         if (soundID != null) {
           playSysSound(soundID);
           result.success(true);
