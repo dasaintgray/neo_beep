@@ -1,7 +1,8 @@
 name: neo_beep
-description: "A fork Flutter Beep plugin for iOS and Android."
+description: "A simple cross-platform Flutter plugin to trigger native system beeps or haptic feedback.
+  Useful for notifications or user interaction cues."
 version: 1.0.0
-homepage: https://guestastic.com/
+homepage: https://github.com/dasaintgray/neo_beep
 
 environment:
   sdk: '>=3.5.3  <4.0.0'
