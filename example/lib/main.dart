@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
               ),
               ElevatedButton(
                 child: Text("Beep Android Custom"),
-                onPressed: () => NeoBeep.playSysSound(
-                    AndroidSoundIDs.TONE_CDMA_ABBR_ALERT),
+                onPressed: () =>
+                    NeoBeep.playSysSound(AndroidSoundIDs.TONE_CDMA_ABBR_ALERT),
               ),
               ElevatedButton(
                 child: Text("Beep something"),
